@@ -3,13 +3,15 @@
                    
 <h1 allign="center">HOW TO SETUP THE Config FILE</h1>
 - default config.json will look like this
+
 ```
 {
     "api_id": 000,
     "api_hash": "abc"
 }
 ```
-You will change 000 with your api_id, and api_hash with your api_hash
+
+- You will change 000 with your api_id, and api_hash with your api_hash
 you can get your api_id/hash from <a href="https://my.telegram.org">Telegram Org</a>
 
 

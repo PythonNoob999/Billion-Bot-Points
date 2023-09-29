@@ -20,6 +20,7 @@ Choose your option!!
 1- for Adding Account
 2- for the Account Count 
 3- for Collecting points
+4- for Collecting daily points🎁
 exit- for exiting\033[0;40m
 ''',
     "ask_phone_number": "\033[1;34;40mType phone number\033[0;40m",

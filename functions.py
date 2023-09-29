@@ -166,4 +166,25 @@ async def collect_points(account):
     except:
         pass
     return n
-    
+
+async def collect_daily(account):
+    app = Client(account)
+    try:
+        await app.connect()
+    except:
+        pass
+        
+    await send_command(app, "/start")
+    msg = await get_last_message(app)
+    await click_button(app, msg, 6)
+    await asyncio.sleep(1)
+    msg = await get_last_message(app)
+    if "10" in msg.text:
+        return 10
+    else:
+        return 0
+        
+    try:
+        await app.disconnect()
+    except:
+        pass    
